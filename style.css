@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(to right, rgba(204, 204, 204, 1), rgba(255, 255, 255, 0));
+}
+
+div.container {
+    margin-bottom: 5em;
+}
+
+img {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 75%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+div[class*="carousel-caption"] {
+    color: black;
+}
+
+
+.footer-basic {
+    padding: 20px 0;
+    color: #4b4c4d;
+}
+
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+div.social a {
+    font-size: 50px;
+}
+
+div.social a:hover {
+    color: black;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
